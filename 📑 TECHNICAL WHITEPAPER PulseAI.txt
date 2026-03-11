@@ -1,0 +1,66 @@
+📑 TECHNICAL WHITEPAPER: PulseAI
+Multi-Modal Heart Disease Risk Prediction & Healthcare Intelligence
+
+Author: Musfira Mubeen, AI Engineer
+
+Date: March 2026
+
+Confidentiality: Professional Portfolio Piece
+
+1. Executive Summary
+PulseAI is a high-fidelity healthcare solution designed to address the limitations of single-source diagnostic tools. By utilizing Multi-Modal Data Fusion, the system achieves a higher diagnostic confidence level than traditional ANN or CNN models acting in isolation. This paper outlines the architecture, integration, and deployment-readiness of the PulseAI engine.
+
+2. The Problem: "Data Silos" in Healthcare
+Most AI health trackers rely solely on tabular data (age, cholesterol, etc.) or a single image. However, a patient’s true cardiac state is hidden across:
+
+Spatial Data: Structural anomalies in X-rays.
+
+Temporal Data: Irregularities in heart rhythm (ECG).
+
+Demographic Data: Statistical risk factors.
+
+3. The PulseAI Solution: Triple-Engine Fusion
+PulseAI processes three independent data streams using specialized neural architectures:
+
+A. Clinical Analytical Engine (ANN)
+Input: Structured demographic and clinical parameters.
+
+Logic: Multilayer Perceptron (MLP) for high-speed statistical risk assessment.
+
+B. Radiographic Vision Engine (CNN)
+Input: Chest X-ray images.
+
+Architecture: MobileNetV2 (Transfer Learning).
+
+Advantage: Lightweight yet powerful feature extraction for spatial medical imaging.
+
+C. Temporal Signal Engine (LSTM)
+Input: Time-Series ECG Signals.
+
+Logic: Long Short-Term Memory (LSTM) cells to capture long-term dependencies in electrical heart signals.
+
+The Fusion Layer: A specialized concatenation layer that merges the feature vectors of all three models to produce a Weighted Risk Score.
+
+4. Full-Stack Infrastructure
+PulseAI is built for real-world production, not just a lab environment:
+
+Backend: Flask (Python) with RESTful API architecture.
+
+Database Management: SQLite for user-authenticated health tracking and session history.
+
+Security: Flask-Login integration for HIPAA-conscious data handling.
+
+Interface: Dynamic HTML5/CSS3 Dashboard with real-time risk visualization.
+
+5. Deployment & Scalability
+Containerization: The system is Dockerized, ensuring that the environment (Python, TensorFlow, Flask) is consistent across any cloud provider (AWS/Hugging Face).
+
+AI Chatbot Integration: A custom script-based assistant provides natural language interpretations of complex AI results, bridging the gap between "data" and "patient understanding."
+
+6. Conclusion
+PulseAI demonstrates a production-grade approach to AI Engineering. By solving the challenge of multi-modal integration, it provides a scalable, secure, and highly accurate foundation for future health-tech products.
+
+Contact Information:
+Musfira Mubeen | AI & Data Science Professional
+
+Lahore, Pakistan
