@@ -5,15 +5,6 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Flask](https://img.shields.io/badge/Flask-Web_Framework-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 
----
-
-## 📺 Project Demo
-Check out the full walkthrough of the application on my YouTube channel, **Mubeen Tech**:
-
-[![Watch the Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@MubeenTech)  
-*(Click the button above to watch the demo)*
-
----
 
 ## 📌 Project Overview
 PulseAI is an end-to-end medical intelligence application designed to assess heart disease risk by combining multiple types of patient data into one unified prediction system. Instead of relying on a single data source, this project integrates three distinct modalities to simulate a real-world clinical decision support system.
